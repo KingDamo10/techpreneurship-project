@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="cal" style="text-align: center; justify-content: center;">
+            <div style="margin-top: 2rem;">
+                <input
+                    type="number"
+                    name=""
+                    style="margin-top: 1rem; padding: 1rem;"
+                    id="num1"
+                    placeholder="input figure"
+                >
+
+                <div class="dropdown-operator">
+                   
+                    <select class="dropdown-options">
+                        <option value="">Select Operator</option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                    <!-- <style>
+                        .dropdown-operator{
+                            position: relative;
+                            display: inline-block;
+                        }
+
+                        .dropdown-button{
+                            width: 200px;
+                            height: 30px;
+                            font-size: 16px;
+                            padding: 5px;
+                            border: 1px solid #fff;
+                            border-radius: 5px;
+                            background-color: #fff;
+                            cursor: pointer;
+                        }
+                        
+                        .dropdown-options{
+                            /* position: absolute; */
+                            list-style-type: none;
+                            top: 100%;
+                            left: 0;
+                            background-color: #fff;
+                            border: 1px solid #ccc;
+                            padding: 10px;
+                            display: none;
+                        }
+
+                        .dropdown-options li{
+                            padding: 5px;
+                            cursor: pointer;
+                            /* list-style: none; */
+                        }
+
+                        .dropdown-options li:hover{
+                            background-color: #f0f0f0;
+
+                        }
+                    </style> -->
+                </div>
+
+                <input
+                    type="number"
+                    name=""
+                    style="margin-top: 1rem; padding: 1rem;"
+                    id="num2"
+                    placeholder="input figure"
+                >
+            </div>
+                    <br>
+
+            <button style="margin-top: 1rem; padding: 1rem;" id="generate">CALCULATE</button>
+
+            <h1 class="result" style="color: blue;">Result:
+                <br>
+            </h1>
+        </div>
+        
+
+       
+
+        <script src="calculator.js"></script>
+        
+    </body>
+</html>
